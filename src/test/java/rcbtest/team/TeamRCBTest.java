@@ -55,7 +55,7 @@ public class TeamRCBTest{
 	 @Test(priority= 1)
 		public  void ValidateOnly4ForeignPlayers() {
 			Assert.assertEquals(4, countForaignPlayers);
-			System.out.print("It has" +" "+ countForaignPlayers+" "+"Foreign Players");
+			System.out.print("It has " +" "+ countForaignPlayers+" "+"Foreign Players");
 		}
            @Test(priority= 2)
 		public void validateAtleast1WicketKeeper() {
